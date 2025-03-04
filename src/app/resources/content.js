@@ -13,7 +13,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -187,6 +187,7 @@ const about = {
 };
 
 const blog = {
+  display: false,
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
@@ -203,6 +204,7 @@ const work = {
 };
 
 const gallery = {
+  display: false,
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
